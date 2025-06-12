@@ -1,0 +1,83 @@
+{"level":"info","message":"Database connected successfully","timestamp":"2025-05-29T09:01:37.080Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-05-29T09:01:37.085Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-05-30T06:07:29.491Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-05-30T06:07:29.498Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-05-30T06:54:41.558Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-05-30T06:54:41.563Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-05-30T07:17:53.408Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-05-30T07:17:53.413Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-05-30T08:49:55.929Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-05-30T08:49:55.933Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-05-30T11:50:22.603Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-05-30T11:50:22.610Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-05-31T07:35:34.571Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-05-31T07:35:34.580Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-02T05:44:43.573Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-02T05:44:43.585Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-04T07:17:38.348Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-04T07:17:38.371Z"}
+{"level":"error","message":"DB Connection Attempt 1 Failed:","timestamp":"2025-06-04T08:24:48.974Z"}
+{"level":"info","message":"Retrying in 5 seconds...","timestamp":"2025-06-04T08:24:48.980Z"}
+{"level":"error","message":"DB Connection Attempt 2 Failed:","timestamp":"2025-06-04T08:24:53.995Z"}
+{"level":"info","message":"Retrying in 5 seconds...","timestamp":"2025-06-04T08:24:53.996Z"}
+{"level":"error","message":"DB Connection Attempt 3 Failed:","timestamp":"2025-06-04T08:24:59.012Z"}
+{"level":"info","message":"Retrying in 5 seconds...","timestamp":"2025-06-04T08:24:59.012Z"}
+{"level":"error","message":"DB Connection Attempt 4 Failed:","timestamp":"2025-06-04T08:25:04.029Z"}
+{"level":"info","message":"Retrying in 5 seconds...","timestamp":"2025-06-04T08:25:04.030Z"}
+{"level":"error","message":"DB Connection Attempt 5 Failed:","timestamp":"2025-06-04T08:25:09.045Z"}
+{"level":"error","message":"DB Connection Attempt 1 Failed:","timestamp":"2025-06-04T08:36:09.238Z"}
+{"level":"info","message":"Retrying in 5 seconds...","timestamp":"2025-06-04T08:36:09.245Z"}
+{"level":"error","message":"DB Connection Attempt 2 Failed:","timestamp":"2025-06-04T08:36:14.255Z"}
+{"level":"info","message":"Retrying in 5 seconds...","timestamp":"2025-06-04T08:36:14.257Z"}
+{"level":"error","message":"DB Connection Attempt 3 Failed:","timestamp":"2025-06-04T08:36:19.271Z"}
+{"level":"info","message":"Retrying in 5 seconds...","timestamp":"2025-06-04T08:36:19.272Z"}
+{"level":"error","message":"DB Connection Attempt 4 Failed:","timestamp":"2025-06-04T08:36:24.287Z"}
+{"level":"info","message":"Retrying in 5 seconds...","timestamp":"2025-06-04T08:36:24.288Z"}
+{"level":"error","message":"DB Connection Attempt 5 Failed:","timestamp":"2025-06-04T08:36:29.291Z"}
+{"level":"info","message":"Connected to SQL Server (jnumssschool)","timestamp":"2025-06-04T10:07:12.660Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-04T10:07:12.665Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-04T10:07:12.672Z"}
+{"level":"info","message":"Connected to SQL Server (jnumssschool)","timestamp":"2025-06-04T10:21:59.738Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-04T10:21:59.742Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-04T10:21:59.747Z"}
+{"level":"error","message":"DB Connection Attempt 1 Failed:","timestamp":"2025-06-04T10:36:42.240Z"}
+{"level":"info","message":"Retrying in 5 seconds...","timestamp":"2025-06-04T10:36:42.245Z"}
+{"level":"error","message":"DB Connection Attempt 2 Failed:","timestamp":"2025-06-04T10:36:47.249Z"}
+{"level":"info","message":"Retrying in 5 seconds...","timestamp":"2025-06-04T10:36:47.251Z"}
+{"level":"error","message":"DB Connection Attempt 3 Failed:","timestamp":"2025-06-04T10:36:52.265Z"}
+{"level":"info","message":"Retrying in 5 seconds...","timestamp":"2025-06-04T10:36:52.266Z"}
+{"level":"error","message":"DB Connection Attempt 4 Failed:","timestamp":"2025-06-04T10:36:57.275Z"}
+{"level":"info","message":"Retrying in 5 seconds...","timestamp":"2025-06-04T10:36:57.276Z"}
+{"level":"error","message":"DB Connection Attempt 5 Failed:","timestamp":"2025-06-04T10:37:02.286Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-04T10:37:46.561Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-04T10:37:46.572Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-04T11:22:45.178Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-04T11:22:45.184Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-05T06:28:39.891Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-05T06:28:39.899Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-05T06:42:22.930Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-05T06:42:22.941Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-05T06:59:00.744Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-05T06:59:00.748Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-05T07:04:36.227Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-05T07:04:36.231Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-05T10:08:55.932Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-05T10:08:55.942Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-05T11:10:54.929Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-05T11:10:54.938Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-05T11:17:58.658Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-05T11:17:58.669Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-05T12:17:00.534Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-05T12:17:00.547Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-06T05:39:46.531Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-06T05:39:46.543Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-11T08:34:53.899Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-11T08:34:53.905Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-11T11:22:10.048Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-11T11:22:10.053Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-12T06:04:41.885Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-12T06:04:41.900Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-12T06:15:42.026Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-12T06:15:42.036Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2025-06-12T07:11:52.706Z"}
+{"level":"info","message":"🚀 Server running at http://localhost:3000","timestamp":"2025-06-12T07:11:52.718Z"}

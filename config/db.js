@@ -14,16 +14,24 @@ const config = {
   },
 };
 
+// DEBUG: Log config to check if env variables are loaded properly
+console.log('✅ Database config loaded:', {
+  user: config.user,
+  password: config.password ? '********' : undefined,
+  server: config.server,
+  database: config.database,
+});
+
 let poolPromise = null;
 
 const connectToDb = async () => {
   if (poolPromise) return poolPromise;
   try {
     poolPromise = await sql.connect(config);
-    console.log('Connected to SQL Server');
+    console.log('✅ Connected to SQL Server');
     return poolPromise;
   } catch (err) {
-    console.error('Database connection failed:', err);
+    console.error('❌ Database connection failed:', err);
     throw err;
   }
 };
