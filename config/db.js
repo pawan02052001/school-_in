@@ -1,37 +1,35 @@
-// db.js
+// config/db.js
 import sql from 'mssql';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const config = {
+const baseConfig = {
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   server: process.env.DB_SERVER,
-  database: process.env.DB_DATABASE,
   options: {
     encrypt: false,
     trustServerCertificate: true,
   },
 };
 
-// DEBUG: Log config to check if env variables are loaded properly
-console.log('✅ Database config loaded:', {
-  user: config.user,
-  password: config.password ? '********' : undefined,
-  server: config.server,
-  database: config.database,
-});
+const connectionCache = {};
 
-let poolPromise = null;
+const connectToDb = async (dbName) => {
+  if (connectionCache[dbName]) return connectionCache[dbName];
 
-const connectToDb = async () => {
-  if (poolPromise) return poolPromise;
   try {
-    poolPromise = await sql.connect(config);
-    console.log('✅ Connected to SQL Server');
-    return poolPromise;
+    const config = {
+      ...baseConfig,
+      database: dbName,
+    };
+
+    const pool = await sql.connect(config);
+    console.log(` Connected to DB: ${dbName}`);
+    connectionCache[dbName] = pool;
+    return pool;
   } catch (err) {
-    console.error('❌ Database connection failed:', err);
+    console.error(` Failed to connect DB (${dbName}):`, err);
     throw err;
   }
 };

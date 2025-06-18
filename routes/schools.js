@@ -5,7 +5,7 @@ import connectToDb from '../config/db.js'; // DB connection config
 
 const router = express.Router();
 
-// ✅ GET: Fetch all schools
+//  GET: Fetch all schools
 router.get('/list', async (req, res) => {
   try {
     const pool = await connectToDb(); // Connect to default/common DB
