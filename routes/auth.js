@@ -5,7 +5,6 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
 import nodemailer from 'nodemailer';
-import connectToDb from '../config/connectToDb.js';
 import { authenticateToken } from '../middleware/auth.js';
 
 const router = express.Router();
