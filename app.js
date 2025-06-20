@@ -58,10 +58,10 @@ app.use('/api', (req, res, next) => {
 app.use(cors({
   origin: [
     'http://localhost:8081',
-    'https://your-frontend-url',
+    'https://your-frontend-url', // ✅ Replace with your deployed frontend domain
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'school'], // ✅ ADDED: 'school' custom header
 }));
 app.use(express.json());
 
