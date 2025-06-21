@@ -35,3 +35,4 @@ const connectToDb = async (dbName) => {
 };
 
 export default connectToDb;
+  
